@@ -11,8 +11,8 @@ handlers:
 
 #service_account: civic-matrix-327917.iam.gserviceaccount.com
 
-#health_check:
-#  enable_health_check: False
+health_check:
+  enable_health_check: False
 
 entrypoint: java -noverify -jar publisher-0.0.1-SNAPSHOT.jar
 
